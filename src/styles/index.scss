@@ -1,0 +1,29 @@
+@import "vars";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: $primary-text-color;
+  background: $bg-light-color;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+@import "ui";
+@import "header";
+@import "contacts";
+@import "footer";

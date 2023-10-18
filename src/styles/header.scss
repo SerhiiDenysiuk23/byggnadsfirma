@@ -1,0 +1,26 @@
+@import "vars";
+
+header{
+  width: 100%;
+
+  .logo{
+    text-align: center;
+    padding: 25px;
+  }
+
+  nav{
+    padding: 17px;
+    border: 1px solid $secondary-text-color;
+    border-left: none;
+    border-right: none;
+
+    ul{
+      width: 100%;
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+    }
+  }
+}
