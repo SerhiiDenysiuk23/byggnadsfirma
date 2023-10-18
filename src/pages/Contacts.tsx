@@ -4,8 +4,8 @@ import ContactsForm from "../components/ContactsForm";
 
 const Contacts = () => {
   return (
-    <main>
-      <section className='container contacts-section'>
+    <main className={"container"}>
+      <section className='contacts-section'>
         <ContactsBlock/>
         <ContactsForm/>
       </section>

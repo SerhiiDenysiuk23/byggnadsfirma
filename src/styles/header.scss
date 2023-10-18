@@ -9,7 +9,7 @@ header{
   }
 
   nav{
-    padding: 17px;
+    padding: 17px 0;
     border: 1px solid $secondary-text-color;
     border-left: none;
     border-right: none;
@@ -21,6 +21,30 @@ header{
       justify-content: center;
       align-items: center;
       gap: 60px;
+      @media screen and (max-width: 1077px){
+        gap: 35px;
+      }
+    }
+  }
+
+
+  @media screen and (max-width: 999px){
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    border-bottom: 1px solid $secondary-text-color;
+    nav{
+      display: none;
+    }
+    .logo {
+      display: inline-block;
+      padding: 10px;
+
+      svg {
+        height: 50px;
+        width: 70px;
+      }
     }
   }
 }

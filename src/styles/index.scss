@@ -16,14 +16,19 @@ body{
 .bg-image{
   position: absolute;
   max-height: 100vh;
+  max-width: 100%;
   bottom: 170px;
   z-index: -1;
 }
 
 .container{
-  max-width: 1200px;
+  max-width: 1250px;
   margin: auto;
   width: 100%;
+  padding: 0 25px;
+  //@media screen and (max-width: 1200px){
+  //  max-width: 1010px;
+  //}
 }
 
 a{
