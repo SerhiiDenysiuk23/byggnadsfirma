@@ -1,6 +1,7 @@
 @import "vars";
 
 .contacts-section{
+  line-height: 1.5em;
   display: flex;
   justify-content: space-between;
   gap: 10%;
@@ -8,7 +9,6 @@
   >*{
     flex-grow: 1;
     width: 50%;
-
   }
   @media screen and (max-width: 999px){
     flex-direction: column;
@@ -80,6 +80,10 @@
     background: $secondary-text-color;
     border: none;
     margin: 48px 0;
+    cursor: pointer;
+    &:hover{
+      opacity: .7;
+    }
   }
 }
 

@@ -37,7 +37,7 @@ const Header = () => {
           <li><a href="">Fastighetsförädling</a></li>
           <li><a href="">Om INC</a></li>
           <li><a href="">Projekt</a></li>
-          <li><a href="">Kontakt</a></li>
+          <li className='active'><a href="">Kontakt</a></li>
         </ul>
       </nav>
     </header>

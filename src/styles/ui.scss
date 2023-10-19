@@ -9,6 +9,11 @@
     height: 100%;
     border: 1px solid $secondary-text-color;
     padding: 0 1em;
+    background: $bg-light-color;
+    border-radius: 0;
+    &:focus{
+      outline: 2px solid $secondary-text-color;
+    }
   }
 
   label{
@@ -47,4 +52,7 @@
     bottom: 0;
   }
 
+  @media screen and (min-width: 999px){
+    display: none;
+  }
 }

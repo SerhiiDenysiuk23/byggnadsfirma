@@ -21,6 +21,12 @@ header{
       justify-content: center;
       align-items: center;
       gap: 60px;
+      li.active{
+        opacity: .6;
+      }
+      li:hover{
+        opacity: .7;
+      }
       @media screen and (max-width: 1077px){
         gap: 35px;
       }
